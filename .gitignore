@@ -1,0 +1,23 @@
+
+# Environment variables & API keys
+.env
+.env.*
+
+# Python (since you are calling the webhook via python-requests)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# n8n local data & SQLite databases
+.n8n/
+*.sqlite
+*.db
+
+# VS Code & Windows OS files
+.vscode/
+.DS_Store
+Thumbs.db
+ | Out-File -FilePath .gitignore -Encoding utf8
